@@ -1,0 +1,23 @@
+# Ignore environment files
+.env
+
+# Ignore configuration folder
+config/
+
+# Ignore Airflow logs folder
+logs/
+
+# Ignore plugins folder
+plugins/
+
+# Ignore compiled Python files and cache
+*.pyc
+__pycache__/
+
+# Ignore Docker-related files (if specific config files need excluding)
+docker-compose.yaml
+
+# Ignore system files
+*.swp
+.DS_Store
+Thumbs.db
