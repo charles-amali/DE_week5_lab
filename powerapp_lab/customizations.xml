@@ -1,0 +1,1738 @@
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.24104.202" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.24104.00202">
+  <Entities>
+    <Entity>
+      <Name LocalizedName="TaxiData" OriginalName="TaxiData">crdb9_TaxiData</Name>
+      <EntityInfo>
+        <entity Name="crdb9_TaxiData">
+          <LocalizedNames>
+            <LocalizedName description="TaxiData" languagecode="1033" />
+          </LocalizedNames>
+          <LocalizedCollectionNames>
+            <LocalizedCollectionName description="TaxiDatas" languagecode="1033" />
+          </LocalizedCollectionNames>
+          <attributes />
+          <EntityKeys>
+            <EntityKey>
+              <Name>crdb9_primarykey</Name>
+              <LogicalName>crdb9_primarykey</LogicalName>
+              <IntroducedVersion>1.0.0.0</IntroducedVersion>
+              <IsSynchronous>1</IsSynchronous>
+              <IsCustomizable>0</IsCustomizable>
+              <EntityKeyAttributes>
+                <AttributeName>crdb9_identifier</AttributeName>
+              </EntityKeyAttributes>
+              <displaynames>
+                <displayname description="PrimaryKey" languagecode="1033" />
+              </displaynames>
+            </EntityKey>
+          </EntityKeys>
+          <EntitySetName>crdb9_taxidatas</EntitySetName>
+          <IsDuplicateCheckSupported>0</IsDuplicateCheckSupported>
+          <IsBusinessProcessEnabled>0</IsBusinessProcessEnabled>
+          <IsRequiredOffline>0</IsRequiredOffline>
+          <IsInteractionCentricEnabled>0</IsInteractionCentricEnabled>
+          <IsCollaboration>0</IsCollaboration>
+          <AutoRouteToOwnerQueue>0</AutoRouteToOwnerQueue>
+          <IsConnectionsEnabled>0</IsConnectionsEnabled>
+          <IsDocumentManagementEnabled>0</IsDocumentManagementEnabled>
+          <AutoCreateAccessTeams>0</AutoCreateAccessTeams>
+          <IsOneNoteIntegrationEnabled>0</IsOneNoteIntegrationEnabled>
+          <IsKnowledgeManagementEnabled>0</IsKnowledgeManagementEnabled>
+          <IsSLAEnabled>0</IsSLAEnabled>
+          <IsDocumentRecommendationsEnabled>0</IsDocumentRecommendationsEnabled>
+          <IsBPFEntity>0</IsBPFEntity>
+          <OwnershipTypeMask>UserOwned</OwnershipTypeMask>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsRetrieveAuditEnabled>0</IsRetrieveAuditEnabled>
+          <IsRetrieveMultipleAuditEnabled>0</IsRetrieveMultipleAuditEnabled>
+          <IsActivity>0</IsActivity>
+          <ActivityTypeMask></ActivityTypeMask>
+          <IsActivityParty>0</IsActivityParty>
+          <IsReplicated>0</IsReplicated>
+          <IsReplicationUserFiltered>0</IsReplicationUserFiltered>
+          <IsMailMergeEnabled>0</IsMailMergeEnabled>
+          <IsVisibleInMobile>0</IsVisibleInMobile>
+          <IsVisibleInMobileClient>0</IsVisibleInMobileClient>
+          <IsReadOnlyInMobileClient>0</IsReadOnlyInMobileClient>
+          <IsOfflineInMobileClient>0</IsOfflineInMobileClient>
+          <DaysSinceRecordLastModified>0</DaysSinceRecordLastModified>
+          <MobileOfflineFilters></MobileOfflineFilters>
+          <IsMapiGridEnabled>1</IsMapiGridEnabled>
+          <IsReadingPaneEnabled>1</IsReadingPaneEnabled>
+          <IsQuickCreateEnabled>0</IsQuickCreateEnabled>
+          <SyncToExternalSearchIndex>0</SyncToExternalSearchIndex>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <IsMappable>1</IsMappable>
+          <CanModifyAuditSettings>1</CanModifyAuditSettings>
+          <CanModifyMobileVisibility>1</CanModifyMobileVisibility>
+          <CanModifyMobileClientVisibility>1</CanModifyMobileClientVisibility>
+          <CanModifyMobileClientReadOnly>1</CanModifyMobileClientReadOnly>
+          <CanModifyMobileClientOffline>1</CanModifyMobileClientOffline>
+          <CanModifyConnectionSettings>1</CanModifyConnectionSettings>
+          <CanModifyDuplicateDetectionSettings>1</CanModifyDuplicateDetectionSettings>
+          <CanModifyMailMergeSettings>1</CanModifyMailMergeSettings>
+          <CanModifyQueueSettings>1</CanModifyQueueSettings>
+          <CanCreateAttributes>1</CanCreateAttributes>
+          <CanCreateForms>1</CanCreateForms>
+          <CanCreateCharts>1</CanCreateCharts>
+          <CanCreateViews>1</CanCreateViews>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <CanEnableSyncToExternalSearchIndex>1</CanEnableSyncToExternalSearchIndex>
+          <EnforceStateTransitions>0</EnforceStateTransitions>
+          <CanChangeHierarchicalRelationship>1</CanChangeHierarchicalRelationship>
+          <EntityHelpUrlEnabled>0</EntityHelpUrlEnabled>
+          <ChangeTrackingEnabled>1</ChangeTrackingEnabled>
+          <CanChangeTrackingBeEnabled>1</CanChangeTrackingBeEnabled>
+          <IsEnabledForExternalChannels>0</IsEnabledForExternalChannels>
+          <IsMSTeamsIntegrationEnabled>0</IsMSTeamsIntegrationEnabled>
+          <IsSolutionAware>0</IsSolutionAware>
+        </entity>
+      </EntityInfo>
+      <RibbonDiffXml>
+        <CustomActions />
+        <Templates>
+          <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+        </Templates>
+        <CommandDefinitions />
+        <RuleDefinitions>
+          <TabDisplayRules />
+          <DisplayRules />
+          <EnableRules />
+        </RuleDefinitions>
+        <LocLabels />
+      </RibbonDiffXml>
+    </Entity>
+    <Entity>
+      <Name LocalizedName="TaxiDataProfile" OriginalName="TaxiDataProfile">crdb9_TaxiDataProfile</Name>
+      <EntityInfo>
+        <entity Name="crdb9_TaxiDataProfile">
+          <LocalizedNames>
+            <LocalizedName description="TaxiDataProfile" languagecode="1033" />
+          </LocalizedNames>
+          <LocalizedCollectionNames>
+            <LocalizedCollectionName description="TaxiDataProfiles" languagecode="1033" />
+          </LocalizedCollectionNames>
+          <attributes>
+            <attribute PhysicalName="crdb9_Identifier">
+              <Type>nvarchar</Type>
+              <Name>crdb9_identifier</Name>
+              <LogicalName>crdb9_identifier</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <DisplayMask>PrimaryName|ReadOnlyInUI|ValidForAdvancedFind|ValidForForm|ValidForGrid|RequiredForForm</DisplayMask>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>1</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>1</ValidForCreateApi>
+              <IsCustomField>1</IsCustomField>
+              <IsAuditEnabled>1</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0.0.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat>{SEQNUM:4}</AutoNumberFormat>
+              <IsSearchable>1</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>1</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <Format>text</Format>
+              <MaxLength>100</MaxLength>
+              <Length>200</Length>
+              <displaynames>
+                <displayname description="Identifier" languagecode="1033" />
+              </displaynames>
+            </attribute>
+            <attribute PhysicalName="crdb9_Metric">
+              <Type>ntext</Type>
+              <Name>crdb9_metric</Name>
+              <LogicalName>crdb9_metric</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>1</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>1</ValidForCreateApi>
+              <IsCustomField>1</IsCustomField>
+              <IsAuditEnabled>1</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0.0.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <Format>text</Format>
+              <MaxLength>4000</MaxLength>
+              <displaynames>
+                <displayname description="Metric" languagecode="1033" />
+              </displaynames>
+            </attribute>
+            <attribute PhysicalName="crdb9_TaxiDataProfileId">
+              <Type>primarykey</Type>
+              <Name>crdb9_taxidataprofileid</Name>
+              <LogicalName>crdb9_taxidataprofileid</LogicalName>
+              <RequiredLevel>systemrequired</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|RequiredForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>0</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>1</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0.0.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>0</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>1</IsFilterable>
+              <IsRetrievable>1</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <displaynames>
+                <displayname description="TaxiDataProfile" languagecode="1033" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Unique identifier for entity instances" languagecode="1033" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="crdb9_Value">
+              <Type>ntext</Type>
+              <Name>crdb9_value</Name>
+              <LogicalName>crdb9_value</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>1</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>1</ValidForCreateApi>
+              <IsCustomField>1</IsCustomField>
+              <IsAuditEnabled>1</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0.0.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <Format>text</Format>
+              <MaxLength>4000</MaxLength>
+              <displaynames>
+                <displayname description="Value" languagecode="1033" />
+              </displaynames>
+            </attribute>
+            <attribute PhysicalName="CreatedBy">
+              <Type>lookup</Type>
+              <Name>createdby</Name>
+              <LogicalName>createdby</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>0</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>0</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0.0.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <LookupStyle>single</LookupStyle>
+              <LookupTypes />
+              <displaynames>
+                <displayname description="Created By" languagecode="1033" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Unique identifier of the user who created the record." languagecode="1033" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="CreatedOn">
+              <Type>datetime</Type>
+              <Name>createdon</Name>
+              <LogicalName>createdon</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>inactive</ImeMode>
+              <ValidForUpdateApi>0</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>0</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0.0.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>1</IsFilterable>
+              <IsRetrievable>1</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <Format>datetime</Format>
+              <CanChangeDateTimeBehavior>0</CanChangeDateTimeBehavior>
+              <Behavior>1</Behavior>
+              <displaynames>
+                <displayname description="Created On" languagecode="1033" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Date and time when the record was created." languagecode="1033" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="CreatedOnBehalfBy">
+              <Type>lookup</Type>
+              <Name>createdonbehalfby</Name>
+              <LogicalName>createdonbehalfby</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>0</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>0</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0.0.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <LookupStyle>single</LookupStyle>
+              <LookupTypes />
+              <displaynames>
+                <displayname description="Created By (Delegate)" languagecode="1033" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Unique identifier of the delegate user who created the record." languagecode="1033" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="ImportSequenceNumber">
+              <Type>int</Type>
+              <Name>importsequencenumber</Name>
+              <LogicalName>importsequencenumber</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind</DisplayMask>
+              <ImeMode>disabled</ImeMode>
+              <ValidForUpdateApi>0</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>1</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>1</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0.0.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <Format></Format>
+              <MinValue>-2147483648</MinValue>
+              <MaxValue>2147483647</MaxValue>
+              <displaynames>
+                <displayname description="Import Sequence Number" languagecode="1033" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Sequence number of the import that created this record." languagecode="1033" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="ModifiedBy">
+              <Type>lookup</Type>
+              <Name>modifiedby</Name>
+              <LogicalName>modifiedby</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>0</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>0</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0.0.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <LookupStyle>single</LookupStyle>
+              <LookupTypes />
+              <displaynames>
+                <displayname description="Modified By" languagecode="1033" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Unique identifier of the user who modified the record." languagecode="1033" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="ModifiedOn">
+              <Type>datetime</Type>
+              <Name>modifiedon</Name>
+              <LogicalName>modifiedon</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>inactive</ImeMode>
+              <ValidForUpdateApi>0</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>0</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0.0.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>1</IsFilterable>
+              <IsRetrievable>1</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <Format>datetime</Format>
+              <CanChangeDateTimeBehavior>0</CanChangeDateTimeBehavior>
+              <Behavior>1</Behavior>
+              <displaynames>
+                <displayname description="Modified On" languagecode="1033" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Date and time when the record was modified." languagecode="1033" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="ModifiedOnBehalfBy">
+              <Type>lookup</Type>
+              <Name>modifiedonbehalfby</Name>
+              <LogicalName>modifiedonbehalfby</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>0</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>0</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0.0.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <LookupStyle>single</LookupStyle>
+              <LookupTypes />
+              <displaynames>
+                <displayname description="Modified By (Delegate)" languagecode="1033" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Unique identifier of the delegate user who modified the record." languagecode="1033" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="OverriddenCreatedOn">
+              <Type>datetime</Type>
+              <Name>overriddencreatedon</Name>
+              <LogicalName>overriddencreatedon</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForGrid</DisplayMask>
+              <ImeMode>inactive</ImeMode>
+              <ValidForUpdateApi>0</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>1</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>1</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0.0.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <Format>date</Format>
+              <CanChangeDateTimeBehavior>0</CanChangeDateTimeBehavior>
+              <Behavior>1</Behavior>
+              <displaynames>
+                <displayname description="Record Created On" languagecode="1033" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Date and time that the record was migrated." languagecode="1033" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="OwnerId">
+              <Type>owner</Type>
+              <Name>ownerid</Name>
+              <LogicalName>ownerid</LogicalName>
+              <RequiredLevel>systemrequired</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid|RequiredForForm</DisplayMask>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>1</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>1</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>1</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0.0.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>1</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <LookupStyle>single</LookupStyle>
+              <LookupTypes>
+                <LookupType id="00000000-0000-0000-0000-000000000000">8</LookupType>
+                <LookupType id="00000000-0000-0000-0000-000000000000">9</LookupType>
+              </LookupTypes>
+              <displaynames>
+                <displayname description="Owner" languagecode="1033" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Owner Id" languagecode="1033" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="OwningBusinessUnit">
+              <Type>lookup</Type>
+              <Name>owningbusinessunit</Name>
+              <LogicalName>owningbusinessunit</LogicalName>
+              <RequiredLevel>systemrequired</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>0</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>0</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>1</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0.0.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>1</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <LookupStyle>single</LookupStyle>
+              <LookupTypes />
+              <displaynames>
+                <displayname description="Owning Business Unit" languagecode="1033" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Unique identifier for the business unit that owns the record" languagecode="1033" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="OwningTeam">
+              <Type>lookup</Type>
+              <Name>owningteam</Name>
+              <LogicalName>owningteam</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>0</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>0</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsLogical>1</IsLogical>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0.0.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <LookupStyle>single</LookupStyle>
+              <LookupTypes />
+              <displaynames>
+                <displayname description="Owning Team" languagecode="1033" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Unique identifier for the team that owns the record." languagecode="1033" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="OwningUser">
+              <Type>lookup</Type>
+              <Name>owninguser</Name>
+              <LogicalName>owninguser</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>0</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>0</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsLogical>1</IsLogical>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0.0.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <LookupStyle>single</LookupStyle>
+              <LookupTypes />
+              <displaynames>
+                <displayname description="Owning User" languagecode="1033" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Unique identifier for the user that owns the record." languagecode="1033" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="statecode">
+              <Type>state</Type>
+              <Name>statecode</Name>
+              <LogicalName>statecode</LogicalName>
+              <RequiredLevel>systemrequired</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>1</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>0</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>1</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0.0.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>1</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <optionset Name="crdb9_taxidataprofile_statecode">
+                <OptionSetType>state</OptionSetType>
+                <IntroducedVersion>1.0.0.0</IntroducedVersion>
+                <IsCustomizable>1</IsCustomizable>
+                <displaynames>
+                  <displayname description="Status" languagecode="1033" />
+                </displaynames>
+                <Descriptions>
+                  <Description description="Status of the TaxiDataProfile" languagecode="1033" />
+                </Descriptions>
+                <states>
+                  <state value="0" defaultstatus="1" invariantname="Active">
+                    <labels>
+                      <label description="Active" languagecode="1033" />
+                    </labels>
+                  </state>
+                  <state value="1" defaultstatus="2" invariantname="Inactive">
+                    <labels>
+                      <label description="Inactive" languagecode="1033" />
+                    </labels>
+                  </state>
+                </states>
+              </optionset>
+              <displaynames>
+                <displayname description="Status" languagecode="1033" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Status of the TaxiDataProfile" languagecode="1033" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="statuscode">
+              <Type>status</Type>
+              <Name>statuscode</Name>
+              <LogicalName>statuscode</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>1</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>1</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>1</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0.0.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <optionset Name="crdb9_taxidataprofile_statuscode">
+                <OptionSetType>status</OptionSetType>
+                <IntroducedVersion>1.0.0.0</IntroducedVersion>
+                <IsCustomizable>1</IsCustomizable>
+                <displaynames>
+                  <displayname description="Status Reason" languagecode="1033" />
+                </displaynames>
+                <Descriptions>
+                  <Description description="Reason for the status of the TaxiDataProfile" languagecode="1033" />
+                </Descriptions>
+                <statuses>
+                  <status value="1" state="0">
+                    <labels>
+                      <label description="Active" languagecode="1033" />
+                    </labels>
+                  </status>
+                  <status value="2" state="1">
+                    <labels>
+                      <label description="Inactive" languagecode="1033" />
+                    </labels>
+                  </status>
+                </statuses>
+              </optionset>
+              <displaynames>
+                <displayname description="Status Reason" languagecode="1033" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Reason for the status of the TaxiDataProfile" languagecode="1033" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="TimeZoneRuleVersionNumber">
+              <Type>int</Type>
+              <Name>timezoneruleversionnumber</Name>
+              <LogicalName>timezoneruleversionnumber</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>1</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>1</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0.0.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <Format></Format>
+              <MinValue>-1</MinValue>
+              <MaxValue>2147483647</MaxValue>
+              <displaynames>
+                <displayname description="Time Zone Rule Version Number" languagecode="1033" />
+              </displaynames>
+              <Descriptions>
+                <Description description="For internal use only." languagecode="1033" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="UTCConversionTimeZoneCode">
+              <Type>int</Type>
+              <Name>utcconversiontimezonecode</Name>
+              <LogicalName>utcconversiontimezonecode</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>1</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>1</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0.0.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <Format></Format>
+              <MinValue>-1</MinValue>
+              <MaxValue>2147483647</MaxValue>
+              <displaynames>
+                <displayname description="UTC Conversion Time Zone Code" languagecode="1033" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Time zone code that was in use when the record was created." languagecode="1033" />
+              </Descriptions>
+            </attribute>
+          </attributes>
+          <EntitySetName>crdb9_taxidataprofiles</EntitySetName>
+          <IsDuplicateCheckSupported>0</IsDuplicateCheckSupported>
+          <IsBusinessProcessEnabled>0</IsBusinessProcessEnabled>
+          <IsRequiredOffline>0</IsRequiredOffline>
+          <IsInteractionCentricEnabled>0</IsInteractionCentricEnabled>
+          <IsCollaboration>0</IsCollaboration>
+          <AutoRouteToOwnerQueue>0</AutoRouteToOwnerQueue>
+          <IsConnectionsEnabled>0</IsConnectionsEnabled>
+          <IsDocumentManagementEnabled>0</IsDocumentManagementEnabled>
+          <AutoCreateAccessTeams>0</AutoCreateAccessTeams>
+          <IsOneNoteIntegrationEnabled>0</IsOneNoteIntegrationEnabled>
+          <IsKnowledgeManagementEnabled>0</IsKnowledgeManagementEnabled>
+          <IsSLAEnabled>0</IsSLAEnabled>
+          <IsDocumentRecommendationsEnabled>0</IsDocumentRecommendationsEnabled>
+          <IsBPFEntity>0</IsBPFEntity>
+          <OwnershipTypeMask>UserOwned</OwnershipTypeMask>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsRetrieveAuditEnabled>0</IsRetrieveAuditEnabled>
+          <IsRetrieveMultipleAuditEnabled>0</IsRetrieveMultipleAuditEnabled>
+          <IsActivity>0</IsActivity>
+          <ActivityTypeMask></ActivityTypeMask>
+          <IsActivityParty>0</IsActivityParty>
+          <IsReplicated>0</IsReplicated>
+          <IsReplicationUserFiltered>0</IsReplicationUserFiltered>
+          <IsMailMergeEnabled>0</IsMailMergeEnabled>
+          <IsVisibleInMobile>0</IsVisibleInMobile>
+          <IsVisibleInMobileClient>0</IsVisibleInMobileClient>
+          <IsReadOnlyInMobileClient>0</IsReadOnlyInMobileClient>
+          <IsOfflineInMobileClient>0</IsOfflineInMobileClient>
+          <DaysSinceRecordLastModified>0</DaysSinceRecordLastModified>
+          <MobileOfflineFilters></MobileOfflineFilters>
+          <IsMapiGridEnabled>1</IsMapiGridEnabled>
+          <IsReadingPaneEnabled>1</IsReadingPaneEnabled>
+          <IsQuickCreateEnabled>0</IsQuickCreateEnabled>
+          <SyncToExternalSearchIndex>0</SyncToExternalSearchIndex>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <IsMappable>1</IsMappable>
+          <CanModifyAuditSettings>1</CanModifyAuditSettings>
+          <CanModifyMobileVisibility>1</CanModifyMobileVisibility>
+          <CanModifyMobileClientVisibility>1</CanModifyMobileClientVisibility>
+          <CanModifyMobileClientReadOnly>1</CanModifyMobileClientReadOnly>
+          <CanModifyMobileClientOffline>1</CanModifyMobileClientOffline>
+          <CanModifyConnectionSettings>1</CanModifyConnectionSettings>
+          <CanModifyDuplicateDetectionSettings>1</CanModifyDuplicateDetectionSettings>
+          <CanModifyMailMergeSettings>1</CanModifyMailMergeSettings>
+          <CanModifyQueueSettings>1</CanModifyQueueSettings>
+          <CanCreateAttributes>1</CanCreateAttributes>
+          <CanCreateForms>1</CanCreateForms>
+          <CanCreateCharts>1</CanCreateCharts>
+          <CanCreateViews>1</CanCreateViews>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <CanEnableSyncToExternalSearchIndex>1</CanEnableSyncToExternalSearchIndex>
+          <EnforceStateTransitions>0</EnforceStateTransitions>
+          <CanChangeHierarchicalRelationship>1</CanChangeHierarchicalRelationship>
+          <EntityHelpUrlEnabled>0</EntityHelpUrlEnabled>
+          <ChangeTrackingEnabled>1</ChangeTrackingEnabled>
+          <CanChangeTrackingBeEnabled>1</CanChangeTrackingBeEnabled>
+          <IsEnabledForExternalChannels>0</IsEnabledForExternalChannels>
+          <IsMSTeamsIntegrationEnabled>0</IsMSTeamsIntegrationEnabled>
+          <IsSolutionAware>0</IsSolutionAware>
+        </entity>
+      </EntityInfo>
+      <FormXml>
+        <forms type="card">
+          <systemform>
+            <formid>{ff0b2a42-abcb-4dff-8b11-7e8d54416cc3}</formid>
+            <IntroducedVersion>1.0.0.0</IntroducedVersion>
+            <FormPresentation>1</FormPresentation>
+            <FormActivationState>1</FormActivationState>
+            <form>
+              <tabs>
+                <tab name="general" verticallayout="true" id="{03fc2967-5992-4e19-b1e0-f87d51119e75}" IsUserDefined="0">
+                  <labels>
+                    <label description="" languagecode="1033" />
+                  </labels>
+                  <columns>
+                    <column width="25%">
+                      <sections>
+                        <section name="ColorStrip" showlabel="false" showbar="false" columns="1" IsUserDefined="0" id="{85b7f236-b1c0-4066-afb3-6a99fff96959}">
+                          <labels>
+                            <label description="ColorStrip" languagecode="1033" />
+                          </labels>
+                        </section>
+                      </sections>
+                    </column>
+                    <column width="75%">
+                      <sections>
+                        <section name="CardHeader" showlabel="false" showbar="false" columns="111" id="{a6789faf-c91a-4b00-b151-d68f71974fe9}" IsUserDefined="0">
+                          <labels>
+                            <label description="Header" languagecode="1033" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell id="{174fd223-8632-460b-88d8-352cccf85066}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="" languagecode="1033" />
+                                </labels>
+                                <control id="statuscode" classid="{5D68B988-0661-4db2-BC3E-17598AD3BE6C}" datafieldname="statuscode" disabled="false" />
+                              </cell>
+                              <cell id="{92c1d9a0-af56-451b-8549-7fb63427baf6}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="" languagecode="1033" />
+                                </labels>
+                              </cell>
+                              <cell id="{33411369-5c8c-4cbf-a941-2dcff749da2a}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="" languagecode="1033" />
+                                </labels>
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                        <section name="CardDetails" showlabel="false" showbar="false" columns="1" id="{8e243b40-a946-4c93-bc25-7f8f9cbc0f41}" IsUserDefined="0">
+                          <labels>
+                            <label description="Details" languagecode="1033" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell id="{00545677-667b-40dd-907e-fb98f098ef66}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="" languagecode="1033" />
+                                </labels>
+                                <control id="crdb9_identifier" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="crdb9_identifier" disabled="false" />
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                        <section name="CardFooter" showlabel="false" columns="1111" showbar="false" id="{4e300acd-24e5-4f00-b74a-a4e2702851a2}" IsUserDefined="0">
+                          <labels>
+                            <label description="Footer" languagecode="1033" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell id="{fa31ec5f-ffac-4b71-9d75-a01c450b9667}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="" languagecode="1033" />
+                                </labels>
+                                <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+                              </cell>
+                              <cell id="{853d23b9-edb7-4af4-9218-7afeb00a9b3a}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="" languagecode="1033" />
+                                </labels>
+                                <control id="createdon" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdon" disabled="false" />
+                              </cell>
+                              <cell id="{b59f1ac9-a765-4ba8-a4aa-17875a11f0fc}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="" languagecode="1033" />
+                                </labels>
+                              </cell>
+                              <cell id="{0723f5b4-a7a0-42de-9d16-9b8a54fcf0f2}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="" languagecode="1033" />
+                                </labels>
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                      </sections>
+                    </column>
+                  </columns>
+                </tab>
+              </tabs>
+            </form>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>1</CanBeDeleted>
+            <LocalizedNames>
+              <LocalizedName description="Information" languagecode="1033" />
+            </LocalizedNames>
+            <Descriptions>
+              <Description description="A card form for this entity." languagecode="1033" />
+            </Descriptions>
+          </systemform>
+        </forms>
+        <forms type="main">
+          <systemform>
+            <formid>{efdc0076-8dba-4317-adfb-e9b910024747}</formid>
+            <IntroducedVersion>1.0.0.0</IntroducedVersion>
+            <FormPresentation>1</FormPresentation>
+            <FormActivationState>1</FormActivationState>
+            <form>
+              <tabs>
+                <tab verticallayout="true" id="{427ba127-8df2-4afb-854a-c31fb9ce9721}" IsUserDefined="1">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <columns>
+                    <column width="100%">
+                      <sections>
+                        <section showlabel="false" showbar="false" IsUserDefined="0" id="{9f6ba656-17e2-4e6f-8d1e-96cbf7e46285}">
+                          <labels>
+                            <label description="General" languagecode="1033" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell id="{cbce658c-d905-4d0c-b925-f5f5a28efbad}">
+                                <labels>
+                                  <label description="" languagecode="1033" />
+                                </labels>
+                                <control id="crdb9_identifier" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="crdb9_identifier" />
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{c37c9242-89f8-4a41-bec6-e45e2ce464d5}">
+                                <labels>
+                                  <label description="" languagecode="1033" />
+                                </labels>
+                                <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                      </sections>
+                    </column>
+                  </columns>
+                </tab>
+              </tabs>
+            </form>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>1</CanBeDeleted>
+            <LocalizedNames>
+              <LocalizedName description="Information" languagecode="1033" />
+            </LocalizedNames>
+            <Descriptions>
+              <Description description="A form for this entity." languagecode="1033" />
+            </Descriptions>
+          </systemform>
+        </forms>
+        <forms type="quick">
+          <systemform>
+            <formid>{79c839d4-661e-4e01-91cf-ee339bb9a2a3}</formid>
+            <IntroducedVersion>1.0.0.0</IntroducedVersion>
+            <FormPresentation>1</FormPresentation>
+            <FormActivationState>1</FormActivationState>
+            <form>
+              <tabs>
+                <tab verticallayout="true" id="{4b25fd7d-5b3b-4355-b464-53fb83f5d3ae}" IsUserDefined="1">
+                  <labels>
+                    <label description="" languagecode="1033" />
+                  </labels>
+                  <columns>
+                    <column width="100%">
+                      <sections>
+                        <section showlabel="false" showbar="false" IsUserDefined="0" id="{918cf739-b0d0-40c2-9096-d71b584c95f9}">
+                          <labels>
+                            <label description="GENERAL" languagecode="1033" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell id="{a51c4b07-8209-4a83-beff-3085fb1309d4}">
+                                <labels>
+                                  <label description="" languagecode="1033" />
+                                </labels>
+                                <control id="crdb9_identifier" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="crdb9_identifier" />
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{3e2fe109-898d-4822-9048-56a04423d54c}">
+                                <labels>
+                                  <label description="" languagecode="1033" />
+                                </labels>
+                                <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                      </sections>
+                    </column>
+                  </columns>
+                </tab>
+              </tabs>
+            </form>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>1</CanBeDeleted>
+            <LocalizedNames>
+              <LocalizedName description="Information" languagecode="1033" />
+            </LocalizedNames>
+          </systemform>
+        </forms>
+      </FormXml>
+      <SavedQueries>
+        <savedqueries>
+          <savedquery>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>0</CanBeDeleted>
+            <isquickfindquery>0</isquickfindquery>
+            <isprivate>0</isprivate>
+            <isdefault>1</isdefault>
+            <savedqueryid>{1f5af8c8-2fe5-4fc7-8760-59ecaa8aea4c}</savedqueryid>
+            <layoutxml>
+              <grid name="resultset" jump="crdb9_identifier" select="1" icon="1" preview="1">
+                <row name="result" id="crdb9_taxidataprofileid">
+                  <cell name="crdb9_identifier" width="300" />
+                  <cell name="createdon" width="125" />
+                </row>
+              </grid>
+            </layoutxml>
+            <querytype>0</querytype>
+            <fetchxml>
+              <fetch version="1.0" mapping="logical">
+                <entity name="crdb9_taxidataprofile">
+                  <attribute name="crdb9_taxidataprofileid" />
+                  <attribute name="crdb9_identifier" />
+                  <attribute name="createdon" />
+                  <order attribute="crdb9_identifier" descending="false" />
+                  <filter type="and">
+                    <condition attribute="statecode" operator="eq" value="0" />
+                  </filter>
+                </entity>
+              </fetch>
+            </fetchxml>
+            <IntroducedVersion>1.0.0.0</IntroducedVersion>
+            <LocalizedNames>
+              <LocalizedName description="Active TaxiDataProfiles" languagecode="1033" />
+            </LocalizedNames>
+          </savedquery>
+          <savedquery>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>0</CanBeDeleted>
+            <isquickfindquery>0</isquickfindquery>
+            <isprivate>0</isprivate>
+            <isdefault>0</isdefault>
+            <savedqueryid>{ad662ca9-484a-476e-86ce-d39aa3b0fa63}</savedqueryid>
+            <layoutxml>
+              <grid name="resultset" jump="crdb9_identifier" select="1" icon="1" preview="1">
+                <row name="result" id="crdb9_taxidataprofileid">
+                  <cell name="crdb9_identifier" width="300" />
+                  <cell name="createdon" width="125" />
+                </row>
+              </grid>
+            </layoutxml>
+            <querytype>0</querytype>
+            <fetchxml>
+              <fetch version="1.0" mapping="logical">
+                <entity name="crdb9_taxidataprofile">
+                  <attribute name="crdb9_taxidataprofileid" />
+                  <attribute name="crdb9_identifier" />
+                  <attribute name="createdon" />
+                  <order attribute="crdb9_identifier" descending="false" />
+                  <filter type="and">
+                    <condition attribute="statecode" operator="eq" value="1" />
+                  </filter>
+                </entity>
+              </fetch>
+            </fetchxml>
+            <IntroducedVersion>1.0.0.0</IntroducedVersion>
+            <LocalizedNames>
+              <LocalizedName description="Inactive TaxiDataProfiles" languagecode="1033" />
+            </LocalizedNames>
+          </savedquery>
+          <savedquery>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>1</CanBeDeleted>
+            <isquickfindquery>0</isquickfindquery>
+            <isprivate>0</isprivate>
+            <isdefault>1</isdefault>
+            <savedqueryid>{15912441-36b2-ef11-b8e9-6045bd9a55ef}</savedqueryid>
+            <querytype>8192</querytype>
+            <fetchxml>
+              <fetch version="1.0" mapping="logical" output-format="xml-platform">
+                <entity name="crdb9_taxidataprofile">
+                  <attribute name="crdb9_taxidataprofileid" />
+                  <filter type="and">
+                    <condition attribute="statecode" operator="eq" value="0" />
+                    <condition attribute="ownerid" operator="eq-userid" />
+                  </filter>
+                </entity>
+              </fetch>
+            </fetchxml>
+            <IntroducedVersion>1.0.0.0</IntroducedVersion>
+            <LocalizedNames>
+              <LocalizedName description="My TaxiDataProfiles" languagecode="1033" />
+            </LocalizedNames>
+            <Descriptions>
+              <Description description="Active TaxiDataProfiles owned by me" languagecode="1033" />
+            </Descriptions>
+          </savedquery>
+          <savedquery>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>0</CanBeDeleted>
+            <isquickfindquery>1</isquickfindquery>
+            <isprivate>0</isprivate>
+            <isdefault>1</isdefault>
+            <savedqueryid>{110da942-3551-433d-b2cf-2ddaaf2f3f1a}</savedqueryid>
+            <layoutxml>
+              <grid name="resultset" jump="crdb9_identifier" select="1" icon="1" preview="1">
+                <row name="result" id="crdb9_taxidataprofileid">
+                  <cell name="crdb9_identifier" width="300" />
+                  <cell name="createdon" width="125" />
+                </row>
+              </grid>
+            </layoutxml>
+            <querytype>4</querytype>
+            <fetchxml>
+              <fetch version="1.0" mapping="logical">
+                <entity name="crdb9_taxidataprofile">
+                  <attribute name="crdb9_taxidataprofileid" />
+                  <attribute name="crdb9_identifier" />
+                  <attribute name="createdon" />
+                  <order attribute="crdb9_identifier" descending="false" />
+                  <filter type="and">
+                    <condition attribute="statecode" operator="eq" value="0" />
+                  </filter>
+                  <filter type="or" isquickfindfields="1">
+                    <condition attribute="crdb9_identifier" operator="like" value="{0}" />
+                  </filter>
+                </entity>
+              </fetch>
+            </fetchxml>
+            <IntroducedVersion>1.0.0.0</IntroducedVersion>
+            <LocalizedNames>
+              <LocalizedName description="Quick Find Active TaxiDataProfiles" languagecode="1033" />
+            </LocalizedNames>
+          </savedquery>
+          <savedquery>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>0</CanBeDeleted>
+            <isquickfindquery>0</isquickfindquery>
+            <isprivate>0</isprivate>
+            <isdefault>1</isdefault>
+            <savedqueryid>{64959476-d391-45b0-9d8b-6bfc8dc02dfb}</savedqueryid>
+            <layoutxml>
+              <grid name="resultset" jump="crdb9_identifier" select="1" icon="1" preview="1">
+                <row name="result" id="crdb9_taxidataprofileid">
+                  <cell name="crdb9_identifier" width="300" />
+                  <cell name="createdon" width="125" />
+                </row>
+              </grid>
+            </layoutxml>
+            <querytype>1</querytype>
+            <fetchxml>
+              <fetch version="1.0" mapping="logical">
+                <entity name="crdb9_taxidataprofile">
+                  <attribute name="crdb9_taxidataprofileid" />
+                  <attribute name="crdb9_identifier" />
+                  <attribute name="createdon" />
+                  <order attribute="crdb9_identifier" descending="false" />
+                </entity>
+              </fetch>
+            </fetchxml>
+            <IntroducedVersion>1.0.0.0</IntroducedVersion>
+            <LocalizedNames>
+              <LocalizedName description="TaxiDataProfile Advanced Find View" languagecode="1033" />
+            </LocalizedNames>
+          </savedquery>
+          <savedquery>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>0</CanBeDeleted>
+            <isquickfindquery>0</isquickfindquery>
+            <isprivate>0</isprivate>
+            <isdefault>1</isdefault>
+            <savedqueryid>{b2e4505e-7721-4b25-90da-caf1033deb4b}</savedqueryid>
+            <layoutxml>
+              <grid name="crdb9_taxidataprofiles" jump="crdb9_identifier" select="1" icon="1" preview="1">
+                <row name="crdb9_taxidataprofile" id="crdb9_taxidataprofileid">
+                  <cell name="crdb9_identifier" width="300" />
+                  <cell name="createdon" width="125" />
+                </row>
+              </grid>
+            </layoutxml>
+            <querytype>2</querytype>
+            <fetchxml>
+              <fetch version="1.0" mapping="logical">
+                <entity name="crdb9_taxidataprofile">
+                  <attribute name="crdb9_taxidataprofileid" />
+                  <attribute name="crdb9_identifier" />
+                  <attribute name="createdon" />
+                  <order attribute="crdb9_identifier" descending="false" />
+                  <filter type="and">
+                    <condition attribute="statecode" operator="eq" value="0" />
+                  </filter>
+                </entity>
+              </fetch>
+            </fetchxml>
+            <IntroducedVersion>1.0.0.0</IntroducedVersion>
+            <LocalizedNames>
+              <LocalizedName description="TaxiDataProfile Associated View" languagecode="1033" />
+            </LocalizedNames>
+          </savedquery>
+          <savedquery>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>0</CanBeDeleted>
+            <isquickfindquery>0</isquickfindquery>
+            <isprivate>0</isprivate>
+            <isdefault>1</isdefault>
+            <savedqueryid>{2d382ccf-14f9-4835-8ff8-66cde0b33bfb}</savedqueryid>
+            <layoutxml>
+              <grid name="crdb9_taxidataprofiles" jump="crdb9_identifier" select="1" icon="1" preview="0">
+                <row name="crdb9_taxidataprofile" id="crdb9_taxidataprofileid">
+                  <cell name="crdb9_identifier" width="300" />
+                  <cell name="createdon" width="125" />
+                </row>
+              </grid>
+            </layoutxml>
+            <querytype>64</querytype>
+            <fetchxml>
+              <fetch version="1.0" mapping="logical">
+                <entity name="crdb9_taxidataprofile">
+                  <attribute name="crdb9_taxidataprofileid" />
+                  <attribute name="crdb9_identifier" />
+                  <attribute name="createdon" />
+                  <filter type="and">
+                    <condition attribute="statecode" operator="eq" value="0" />
+                  </filter>
+                </entity>
+              </fetch>
+            </fetchxml>
+            <IntroducedVersion>1.0.0.0</IntroducedVersion>
+            <LocalizedNames>
+              <LocalizedName description="TaxiDataProfile Lookup View" languagecode="1033" />
+            </LocalizedNames>
+          </savedquery>
+        </savedqueries>
+      </SavedQueries>
+      <RibbonDiffXml>
+        <CustomActions />
+        <Templates>
+          <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+        </Templates>
+        <CommandDefinitions />
+        <RuleDefinitions>
+          <TabDisplayRules />
+          <DisplayRules />
+          <EnableRules />
+        </RuleDefinitions>
+        <LocLabels />
+      </RibbonDiffXml>
+    </Entity>
+  </Entities>
+  <Roles></Roles>
+  <Workflows>
+    <Workflow WorkflowId="{6ceac964-12b2-ef11-b8e9-6045bd9a55ef}" Name="Getemail">
+      <JsonFileName>/Workflows/Getemail-6CEAC964-12B2-EF11-B8E9-6045BD9A55EF.json</JsonFileName>
+      <Type>1</Type>
+      <Subprocess>0</Subprocess>
+      <Category>5</Category>
+      <Mode>0</Mode>
+      <Scope>4</Scope>
+      <OnDemand>0</OnDemand>
+      <TriggerOnCreate>0</TriggerOnCreate>
+      <TriggerOnDelete>0</TriggerOnDelete>
+      <AsyncAutodelete>0</AsyncAutodelete>
+      <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+      <StateCode>1</StateCode>
+      <StatusCode>2</StatusCode>
+      <RunAs>1</RunAs>
+      <IsTransacted>1</IsTransacted>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsCustomizable>1</IsCustomizable>
+      <BusinessProcessType>0</BusinessProcessType>
+      <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+      <PrimaryEntity>none</PrimaryEntity>
+      <LocalizedNames>
+        <LocalizedName languagecode="1033" description="Getemail" />
+      </LocalizedNames>
+    </Workflow>
+  </Workflows>
+  <FieldSecurityProfiles></FieldSecurityProfiles>
+  <Templates />
+  <EntityMaps />
+  <EntityRelationships>
+    <EntityRelationship Name="business_unit_crdb9_taxidataprofile">
+      <EntityRelationshipType>OneToMany</EntityRelationshipType>
+      <IsCustomizable>1</IsCustomizable>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsHierarchical>0</IsHierarchical>
+      <ReferencingEntityName>crdb9_TaxiDataProfile</ReferencingEntityName>
+      <ReferencedEntityName>BusinessUnit</ReferencedEntityName>
+      <CascadeAssign>NoCascade</CascadeAssign>
+      <CascadeDelete>Restrict</CascadeDelete>
+      <CascadeArchive>Restrict</CascadeArchive>
+      <CascadeReparent>NoCascade</CascadeReparent>
+      <CascadeShare>NoCascade</CascadeShare>
+      <CascadeUnshare>NoCascade</CascadeUnshare>
+      <ReferencingAttributeName>OwningBusinessUnit</ReferencingAttributeName>
+      <RelationshipDescription>
+        <Descriptions>
+          <Description description="Unique identifier for the business unit that owns the record" languagecode="1033" />
+        </Descriptions>
+      </RelationshipDescription>
+    </EntityRelationship>
+    <EntityRelationship Name="lk_crdb9_taxidataprofile_createdby">
+      <EntityRelationshipType>OneToMany</EntityRelationshipType>
+      <IsCustomizable>1</IsCustomizable>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsHierarchical>0</IsHierarchical>
+      <ReferencingEntityName>crdb9_TaxiDataProfile</ReferencingEntityName>
+      <ReferencedEntityName>SystemUser</ReferencedEntityName>
+      <CascadeAssign>NoCascade</CascadeAssign>
+      <CascadeDelete>NoCascade</CascadeDelete>
+      <CascadeArchive>NoCascade</CascadeArchive>
+      <CascadeReparent>NoCascade</CascadeReparent>
+      <CascadeShare>NoCascade</CascadeShare>
+      <CascadeUnshare>NoCascade</CascadeUnshare>
+      <ReferencingAttributeName>CreatedBy</ReferencingAttributeName>
+      <RelationshipDescription>
+        <Descriptions>
+          <Description description="Unique identifier of the user who created the record." languagecode="1033" />
+        </Descriptions>
+      </RelationshipDescription>
+    </EntityRelationship>
+    <EntityRelationship Name="lk_crdb9_taxidataprofile_modifiedby">
+      <EntityRelationshipType>OneToMany</EntityRelationshipType>
+      <IsCustomizable>1</IsCustomizable>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsHierarchical>0</IsHierarchical>
+      <ReferencingEntityName>crdb9_TaxiDataProfile</ReferencingEntityName>
+      <ReferencedEntityName>SystemUser</ReferencedEntityName>
+      <CascadeAssign>NoCascade</CascadeAssign>
+      <CascadeDelete>NoCascade</CascadeDelete>
+      <CascadeArchive>NoCascade</CascadeArchive>
+      <CascadeReparent>NoCascade</CascadeReparent>
+      <CascadeShare>NoCascade</CascadeShare>
+      <CascadeUnshare>NoCascade</CascadeUnshare>
+      <ReferencingAttributeName>ModifiedBy</ReferencingAttributeName>
+      <RelationshipDescription>
+        <Descriptions>
+          <Description description="Unique identifier of the user who modified the record." languagecode="1033" />
+        </Descriptions>
+      </RelationshipDescription>
+    </EntityRelationship>
+    <EntityRelationship Name="owner_crdb9_taxidataprofile">
+      <EntityRelationshipType>OneToMany</EntityRelationshipType>
+      <IsCustomizable>1</IsCustomizable>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsHierarchical>0</IsHierarchical>
+      <ReferencingEntityName>crdb9_TaxiDataProfile</ReferencingEntityName>
+      <ReferencedEntityName>Owner</ReferencedEntityName>
+      <CascadeAssign>NoCascade</CascadeAssign>
+      <CascadeDelete>NoCascade</CascadeDelete>
+      <CascadeArchive>NoCascade</CascadeArchive>
+      <CascadeReparent>NoCascade</CascadeReparent>
+      <CascadeShare>NoCascade</CascadeShare>
+      <CascadeUnshare>NoCascade</CascadeUnshare>
+      <ReferencingAttributeName>OwnerId</ReferencingAttributeName>
+      <RelationshipDescription>
+        <Descriptions>
+          <Description description="Owner Id" languagecode="1033" />
+        </Descriptions>
+      </RelationshipDescription>
+    </EntityRelationship>
+    <EntityRelationship Name="team_crdb9_taxidataprofile">
+      <EntityRelationshipType>OneToMany</EntityRelationshipType>
+      <IsCustomizable>1</IsCustomizable>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsHierarchical>0</IsHierarchical>
+      <ReferencingEntityName>crdb9_TaxiDataProfile</ReferencingEntityName>
+      <ReferencedEntityName>Team</ReferencedEntityName>
+      <CascadeAssign>NoCascade</CascadeAssign>
+      <CascadeDelete>NoCascade</CascadeDelete>
+      <CascadeArchive>NoCascade</CascadeArchive>
+      <CascadeReparent>NoCascade</CascadeReparent>
+      <CascadeShare>NoCascade</CascadeShare>
+      <CascadeUnshare>NoCascade</CascadeUnshare>
+      <ReferencingAttributeName>OwningTeam</ReferencingAttributeName>
+      <RelationshipDescription>
+        <Descriptions>
+          <Description description="Unique identifier for the team that owns the record." languagecode="1033" />
+        </Descriptions>
+      </RelationshipDescription>
+    </EntityRelationship>
+    <EntityRelationship Name="user_crdb9_taxidataprofile">
+      <EntityRelationshipType>OneToMany</EntityRelationshipType>
+      <IsCustomizable>1</IsCustomizable>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsHierarchical>0</IsHierarchical>
+      <ReferencingEntityName>crdb9_TaxiDataProfile</ReferencingEntityName>
+      <ReferencedEntityName>SystemUser</ReferencedEntityName>
+      <CascadeAssign>NoCascade</CascadeAssign>
+      <CascadeDelete>NoCascade</CascadeDelete>
+      <CascadeArchive>NoCascade</CascadeArchive>
+      <CascadeReparent>NoCascade</CascadeReparent>
+      <CascadeShare>NoCascade</CascadeShare>
+      <CascadeUnshare>NoCascade</CascadeUnshare>
+      <ReferencingAttributeName>OwningUser</ReferencingAttributeName>
+      <RelationshipDescription>
+        <Descriptions>
+          <Description description="Unique identifier for the user that owns the record." languagecode="1033" />
+        </Descriptions>
+      </RelationshipDescription>
+    </EntityRelationship>
+  </EntityRelationships>
+  <OrganizationSettings />
+  <optionsets />
+  <CustomControls />
+  <EntityDataProviders />
+  <CanvasApps>
+    <CanvasApp>
+      <Name>del_yellowtaxiapp_4bee9</Name>
+      <AppVersion>2024-12-04T10:04:55Z</AppVersion>
+      <Status>Ready</Status>
+      <CreatedByClientVersion>3.24111.12.0</CreatedByClientVersion>
+      <MinClientVersion>3.24111.12.0</MinClientVersion>
+      <Tags>{"primaryDeviceWidth":"640","primaryDeviceHeight":"1136","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Phone","showStatusBar":"false","publisherVersion":"3.24111.12","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false","sienaVersion":"20241204T100455Z-3.24111.12.0"}</Tags>
+      <IsCdsUpgraded>0</IsCdsUpgraded>
+      <GalleryItemId xsi:nil="true"></GalleryItemId>
+      <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
+      <DisplayName>YellowTaxiApp</DisplayName>
+      <Description xsi:nil="true"></Description>
+      <CommitMessage xsi:nil="true"></CommitMessage>
+      <Publisher xsi:nil="true"></Publisher>
+      <AuthorizationReferences>[]</AuthorizationReferences>
+      <ConnectionReferences>{"17188342-781d-41ca-9902-512d93c8fa52":{"id":"/providers/microsoft.powerapps/apis/shared_microsoftspatialservices","displayName":"Spatial Services","iconUri":"https://connectoricons-prod.azureedge.net/u/laborbol/partial-builds/1711/1.0.1711.3876/microsoftspatialservices/icon.png","dataSources":["SpatialServices"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Premium"}}</ConnectionReferences>
+      <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"NotSpecified","environmentName":"default.cds","overrideValues":{"status":"NotSpecified","environmentVariableName":""}},"dataSources":{"TaxiDatas":{"entitySetName":"crdb9_taxidatas","logicalName":"crdb9_taxidata"}}}}</DatabaseReferences>
+      <AppComponents>[]</AppComponents>
+      <AppComponentDependencies>[]</AppComponentDependencies>
+      <CanConsumeAppPass>0</CanConsumeAppPass>
+      <CanvasAppType>0</CanvasAppType>
+      <BypassConsent>0</BypassConsent>
+      <AdminControlBypassConsent>0</AdminControlBypassConsent>
+      <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <CdsDependencies>{"cdsdependencies":[{"logicalname":"crdb9_taxidata","componenttype":1}]}</CdsDependencies>
+      <IsCustomizable>1</IsCustomizable>
+      <BackgroundImageUri>/CanvasApps/del_yellowtaxiapp_4bee9_BackgroundImageUri</BackgroundImageUri>
+      <DocumentUri>/CanvasApps/del_yellowtaxiapp_4bee9_DocumentUri.msapp</DocumentUri>
+      <AdditionalUris>
+        <AdditionalUri>/CanvasApps/del_yellowtaxiapp_4bee9_AdditionalUris0_identity.json</AdditionalUri>
+      </AdditionalUris>
+    </CanvasApp>
+  </CanvasApps>
+  <connectionreferences>
+    <connectionreference connectionreferencelogicalname="del_sharedcommondataserviceforapps_e6e4a">
+      <connectionreferencedisplayname>Microsoft Dataverse DETaxiDemo-e6e4a</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <promptingbehavior>0</promptingbehavior>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+    <connectionreference connectionreferencelogicalname="del_shareddataflows_310bd">
+      <connectionreferencedisplayname>Power Query Dataflows DETaxiDemo-310bd</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_dataflows</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <promptingbehavior>0</promptingbehavior>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+  </connectionreferences>
+  <msdyn_dataflows>
+    <msdyn_dataflow msdyn_dataflowid="7729dea5-32b2-ef11-b8e9-6045bd9a55ef">
+      <iscustomizable>1</iscustomizable>
+      <msdyn_internalversion>e670b017-f606-4776-80cb-d3c0ab109121</msdyn_internalversion>
+      <msdyn_mashupdocument>section Section1;
+shared taxiData = let
+  Source = Csv.Document(Web.Contents("https://amalitech-my.sharepoint.com/personal/charles_nkansah_amalitech_com/Documents/DE%20PowerAutomate/taxiData.csv"), [Delimiter = ",", Columns = 20, QuoteStyle = QuoteStyle.None]),
+  #"Promoted headers" = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+  #"Changed column type" = Table.TransformColumnTypes(#"Promoted headers", {{"RateCodeID", Int64.Type}, {"RatecodeID", type text}, {"VendorID", Int64.Type}, {"dropoff_latitude", type number}, {"dropoff_longitude", type number}, {"extra", type number}, {"fare_amount", type number}, {"improvement_surcharge", type number}, {"mta_tax", type number}, {"passenger_count", Int64.Type}, {"payment_type", Int64.Type}, {"pickup_latitude", type number}, {"pickup_longitude", type number}, {"store_and_fwd_flag", type text}, {"tip_amount", type number}, {"tolls_amount", type number}, {"total_amount", type number}, {"tpep_dropoff_datetime", type datetime}, {"tpep_pickup_datetime", type datetime}, {"trip_distance", type number}}),
+  #"Removed columns" = Table.RemoveColumns(#"Changed column type", {"RateCodeID", "RatecodeID"}),
+  #"Filtered rows" = Table.SelectRows(#"Removed columns", each [dropoff_latitude] &lt;&gt; 0 and [dropoff_longitude] &lt;&gt; 0),
+  #"Changed column type 1" = Table.TransformColumnTypes(#"Filtered rows", {{"dropoff_latitude", type text}, {"dropoff_longitude", type text}, {"pickup_latitude", type text}, {"pickup_longitude", type text}}),
+ UniqueRecordsCount = Table.RowCount(Table.Distinct(#"Changed column type 1")),
+    ErrorCount = Table.RowCount(Table.SelectRows(#"Changed column type 1", each [dropoff_latitude] = null or [dropoff_longitude] = null or [pickup_latitude] = null or [pickup_longitude] = null)),
+    SummaryOfTransformations = Text.Combine({
+        "Removed Columns: RateCodeID", 
+        "Filtered Rows: dropoff_latitude and dropoff_longitude &lt;&gt; 0", 
+        "Transformed Latitude and Longitude Columns to Text"
+    }, "; "),
+    ProfilingTable = Table.FromRows({
+        {"Unique Records", Number.ToText(UniqueRecordsCount)},
+        {"Error Count", Number.ToText(ErrorCount)},
+        {"Transformation Summary", SummaryOfTransformations}
+    }, {"Metric", "Value"}),
+    Output = ProfilingTable
+in
+    Output;
+</msdyn_mashupdocument>
+      <msdyn_mashupsettings>{"QueryGroups":[],"DocumentLocale":"en-GB","QueriesMetadata":{"taxiData":{"QueryId":"78799403-d7c6-44fa-8974-c1c779118be9","QueryName":"taxiData","QueryGroupId":null,"EntityName":"crdb9_TaxiDataProfile","LastKnownIsCalculatedEntity":false,"LastKnownIsLinkedEntity":false,"LastKnownIsParameter":false,"IsHidden":null,"LastKnownResultTypeName":"table","LoadEnabled":true,"DeleteExistingDataOnLoad":false,"FieldsMetadata":{"crdb9_Metric":{"SourceColumnName":"Metric","DestinationFieldType":"Memo","AutoNumberSettings":null},"crdb9_Value":{"SourceColumnName":"Value","DestinationFieldType":"Memo","AutoNumberSettings":null},"crdb9_Identifier":{"SourceColumnName":null,"DestinationFieldType":"String","AutoNumberSettings":{"AutoNumberFormat":"{SEQNUM:4}","DisplayName":"Identifier","SeedValue":1000}}},"HostProperties":{"NewEntityPrimaryNameField":"crdb9_Identifier","MappingEditorProperties":"{}"},"JsonOutputDestinations":null,"BindToDefaultOutputDestination":null,"JsonIncrementalRefreshSettings":null,"JsonStagingDefinition":null}},"FastCombine":false,"AllowNativeQueries":false,"HostContext":{"Type":"CdsT","Details":{"EnvironmentId":"c9d5ff09-b6e4-e633-a543-cc0c16c0635e"}},"HostProperties":null,"SkipAutomaticTypeAndHeaderDetection":false,"DisableAutoAnonymousConnectionUpsert":false,"AllowedModules":null,"DataflowMetadata":"{\"DataflowType\":\"Cdst\",\"DataflowId\":\"3663d4f9-8e61-46a9-a662-ad73edd24a86\",\"OwnerUserId\":\"bb03bdfc-9c1a-48a5-a4b9-be449c127d03\",\"OwnerName\":\"Unknown\",\"OwnerTenantId\":\"b20a8f4d-0d6a-4f2e-83a2-181c968f8882\",\"GatewayObjectId\":null,\"ModelSnapshotUri\":\"\",\"GroupId\":\"c9d5ff09-b6e4-e633-a543-cc0c16c0635e\",\"DataflowState\":\"Source\",\"LastUpdateTime\":\"2024-12-04T11:53:05.4619875+00:00\",\"LastStateChangedTime\":\"2024-12-04T11:53:05.4619875+00:00\",\"CreatedTime\":\"2024-12-04T11:26:23.6568813+00:00\",\"ExpiresAfter\":\"2024-12-06T10:26:23.6551462+00:00\",\"AllowedModules\":null,\"UseHostConnectionProvider\":null,\"SkipAutomaticTypeAndHeaderDetection\":null,\"EditingSessionId\":null,\"HostInformation\":null,\"HostContext\":{\"Type\":\"CdsT\",\"Details\":{\"EnvironmentId\":\"c9d5ff09-b6e4-e633-a543-cc0c16c0635e\"}},\"HostProperties\":{\"ServiceFeatureFlag_EnableNewCdstDataflowOrchestration\":\"true\"},\"DisableAutoAnonymousConnectionUpsert\":null,\"RelatedDataflowId\":\"22b1fb79-2aba-46c6-b230-b0401db3568a\",\"NotificationSettings\":{\"RefreshEmailSettings\":{\"SendMailEnabled\":false,\"EmailsList\":[]},\"DataflowWebhooks\":{}},\"DataflowPublishMetadata\":{\"PublishStatus\":\"Published\",\"ErrorInfo\":null,\"PublishVersion\":\"2024-12-04T11:52:15.7915312+00:00\",\"LastUpdateTime\":\"2024-12-04T11:53:05.4537425+00:00\",\"LastPublishedTime\":\"2024-12-04T11:53:05.4537425+00:00\",\"SessionId\":null,\"RequestId\":null},\"TrustedConnections\":null,\"ConnectionOverrides\":[{\"Path\":\"https://amalitech-my.sharepoint.com\",\"Kind\":\"Web\",\"Provider\":\"PowerApps\",\"EnvironmentName\":\"c9d5ff09-b6e4-e633-a543-cc0c16c0635e\",\"ApiName\":\"webcontents\",\"ConnectionName\":\"8aaebb2ec76b494c8eeb0c75e6adc6f6\",\"CredentialDetails\":{},\"ConnectionParameters\":{},\"PrivacyGroup\":\"None\"}]}","Dataflow":"{\"name\":\"dataflow_profile\",\"ppdf:dataflowId\":\"3663d4f9-8e61-46a9-a662-ad73edd24a86\",\"ppdf:owner\":{\"tenantId\":\"b20a8f4d-0d6a-4f2e-83a2-181c968f8882\",\"userId\":\"bb03bdfc-9c1a-48a5-a4b9-be449c127d03\"},\"ppdf:fastCopy\":false,\"version\":\"14\",\"culture\":\"en-GB\",\"ppdf:outputFileFormat\":\"Csv\",\"pbi:mashup\":{\"fastCombine\":false,\"allowNativeQueries\":false,\"queriesMetadata\":{\"taxiData\":{\"queryId\":\"78799403-d7c6-44fa-8974-c1c779118be9\",\"queryName\":\"taxiData\",\"entityName\":\"crdb9_TaxiDataProfile\",\"loadEnabled\":true,\"lastKnownResultTypeName\":\"table\",\"lastKnownIsCalculatedEntity\":false,\"lastKnownIsLinkedEntity\":false,\"lastKnownIsParameter\":false,\"deleteExistingDataOnLoad\":false,\"hostProperties\":{\"NewEntityPrimaryNameField\":\"crdb9_Identifier\",\"MappingEditorProperties\":\"{}\"},\"fieldsMetadata\":{\"crdb9_Metric\":{\"sourceColumnName\":\"Metric\",\"destinationFieldType\":\"Memo\"},\"crdb9_Value\":{\"sourceColumnName\":\"Value\",\"destinationFieldType\":\"Memo\"},\"crdb9_Identifier\":{\"destinationFieldType\":\"String\",\"autoNumberSettings\":{\"autoNumberFormat\":\"{SEQNUM:4}\",\"displayName\":\"Identifier\",\"seedValue\":1000}}}}},\"document\":\"section Section1;\\r\\nshared taxiData = let\\n  Source = Csv.Document(Web.Contents(\\\"https://amalitech-my.sharepoint.com/personal/charles_nkansah_amalitech_com/Documents/DE%20PowerAutomate/taxiData.csv\\\"), [Delimiter = \\\",\\\", Columns = 20, QuoteStyle = QuoteStyle.None]),\\n  #\\\"Promoted headers\\\" = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),\\n  #\\\"Changed column type\\\" = Table.TransformColumnTypes(#\\\"Promoted headers\\\", {{\\\"RateCodeID\\\", Int64.Type}, {\\\"RatecodeID\\\", type text}, {\\\"VendorID\\\", Int64.Type}, {\\\"dropoff_latitude\\\", type number}, {\\\"dropoff_longitude\\\", type number}, {\\\"extra\\\", type number}, {\\\"fare_amount\\\", type number}, {\\\"improvement_surcharge\\\", type number}, {\\\"mta_tax\\\", type number}, {\\\"passenger_count\\\", Int64.Type}, {\\\"payment_type\\\", Int64.Type}, {\\\"pickup_latitude\\\", type number}, {\\\"pickup_longitude\\\", type number}, {\\\"store_and_fwd_flag\\\", type text}, {\\\"tip_amount\\\", type number}, {\\\"tolls_amount\\\", type number}, {\\\"total_amount\\\", type number}, {\\\"tpep_dropoff_datetime\\\", type datetime}, {\\\"tpep_pickup_datetime\\\", type datetime}, {\\\"trip_distance\\\", type number}}),\\n  #\\\"Removed columns\\\" = Table.RemoveColumns(#\\\"Changed column type\\\", {\\\"RateCodeID\\\", \\\"RatecodeID\\\"}),\\n  #\\\"Filtered rows\\\" = Table.SelectRows(#\\\"Removed columns\\\", each [dropoff_latitude] &lt;&gt; 0 and [dropoff_longitude] &lt;&gt; 0),\\n  #\\\"Changed column type 1\\\" = Table.TransformColumnTypes(#\\\"Filtered rows\\\", {{\\\"dropoff_latitude\\\", type text}, {\\\"dropoff_longitude\\\", type text}, {\\\"pickup_latitude\\\", type text}, {\\\"pickup_longitude\\\", type text}}),\\n UniqueRecordsCount = Table.RowCount(Table.Distinct(#\\\"Changed column type 1\\\")),\\n    ErrorCount = Table.RowCount(Table.SelectRows(#\\\"Changed column type 1\\\", each [dropoff_latitude] = null or [dropoff_longitude] = null or [pickup_latitude] = null or [pickup_longitude] = null)),\\n    SummaryOfTransformations = Text.Combine({\\n        \\\"Removed Columns: RateCodeID\\\", \\n        \\\"Filtered Rows: dropoff_latitude and dropoff_longitude &lt;&gt; 0\\\", \\n        \\\"Transformed Latitude and Longitude Columns to Text\\\"\\n    }, \\\"; \\\"),\\n    ProfilingTable = Table.FromRows({\\n        {\\\"Unique Records\\\", Number.ToText(UniqueRecordsCount)},\\n        {\\\"Error Count\\\", Number.ToText(ErrorCount)},\\n        {\\\"Transformation Summary\\\", SummaryOfTransformations}\\n    }, {\\\"Metric\\\", \\\"Value\\\"}),\\n    Output = ProfilingTable\\nin\\n    Output;\\r\\n\"},\"annotations\":[{\"name\":\"pbi:QueryGroups\",\"value\":\"[]\"}]}"}</msdyn_mashupsettings>
+      <msdyn_name>dataflow_profile</msdyn_name>
+      <msdyn_originaldataflowid>3663d4f9-8e61-46a9-a662-ad73edd24a86</msdyn_originaldataflowid>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </msdyn_dataflow>
+    <msdyn_dataflow msdyn_dataflowid="c97266ec-18b2-ef11-b8e9-6045bd9a55ef">
+      <iscustomizable>1</iscustomizable>
+      <msdyn_internalversion>22e87046-45fe-4335-88d0-23ee97d8dec8</msdyn_internalversion>
+      <msdyn_mashupdocument>section Section1;
+shared taxiData = let
+  Source = Csv.Document(Web.Contents("https://amalitech-my.sharepoint.com/personal/charles_nkansah_amalitech_com/Documents/DE%20PowerAutomate/taxiData.csv"), [Delimiter = ",", Columns = 20, QuoteStyle = QuoteStyle.None]),
+  #"Promoted headers" = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+  #"Changed column type" = Table.TransformColumnTypes(#"Promoted headers", {{"RateCodeID", Int64.Type}, {"RatecodeID", type text}, {"VendorID", Int64.Type}, {"dropoff_latitude", type number}, {"dropoff_longitude", type number}, {"extra", type number}, {"fare_amount", type number}, {"improvement_surcharge", type number}, {"mta_tax", type number}, {"passenger_count", Int64.Type}, {"payment_type", Int64.Type}, {"pickup_latitude", type number}, {"pickup_longitude", type number}, {"store_and_fwd_flag", type text}, {"tip_amount", type number}, {"tolls_amount", type number}, {"total_amount", type number}, {"tpep_dropoff_datetime", type datetime}, {"tpep_pickup_datetime", type datetime}, {"trip_distance", type number}}),
+  #"Removed columns" = Table.RemoveColumns(#"Changed column type", {"RateCodeID", "RatecodeID"}),
+  #"Changed column type 1" = Table.TransformColumnTypes(#"Removed columns", {{"dropoff_latitude", type text}, {"dropoff_longitude", type text}, {"pickup_latitude", type text}, {"pickup_longitude", type text}}),
+  #"Added index" = Table.AddIndexColumn(#"Changed column type 1", "Identifier", 0, 1, Int64.Type),
+  #"Filtered rows" = Table.SelectRows(#"Added index", each [dropoff_latitude] &lt;&gt; "0" and [dropoff_longitude] &lt;&gt; "0")
+in
+  #"Filtered rows";
+</msdyn_mashupdocument>
+      <msdyn_mashupsettings>{"QueryGroups":[],"DocumentLocale":"en-GB","QueriesMetadata":{"taxiData":{"QueryId":"cc54032e-b10b-445c-8b0b-f004865bce75","QueryName":"taxiData","QueryGroupId":null,"EntityName":"crdb9_TaxiData","LastKnownIsCalculatedEntity":false,"LastKnownIsLinkedEntity":false,"LastKnownIsParameter":false,"IsHidden":null,"LastKnownResultTypeName":"table","LoadEnabled":true,"DeleteExistingDataOnLoad":false,"FieldsMetadata":{"crdb9_dropoff_latitude":{"SourceColumnName":"dropoff_latitude","DestinationFieldType":"String","AutoNumberSettings":null},"crdb9_dropoff_longitude":{"SourceColumnName":"dropoff_longitude","DestinationFieldType":"String","AutoNumberSettings":null},"crdb9_extra":{"SourceColumnName":"extra","DestinationFieldType":"Double","AutoNumberSettings":null},"crdb9_fare_amount":{"SourceColumnName":"fare_amount","DestinationFieldType":"Double","AutoNumberSettings":null},"crdb9_Identifier":{"SourceColumnName":"Identifier","DestinationFieldType":"String","AutoNumberSettings":null},"crdb9_improvement_surcharge":{"SourceColumnName":"improvement_surcharge","DestinationFieldType":"Double","AutoNumberSettings":null},"crdb9_mta_tax":{"SourceColumnName":"mta_tax","DestinationFieldType":"Double","AutoNumberSettings":null},"crdb9_passenger_count":{"SourceColumnName":"passenger_count","DestinationFieldType":"Integer","AutoNumberSettings":null},"crdb9_payment_type":{"SourceColumnName":"payment_type","DestinationFieldType":"Integer","AutoNumberSettings":null},"crdb9_pickup_latitude":{"SourceColumnName":"pickup_latitude","DestinationFieldType":"String","AutoNumberSettings":null},"crdb9_pickup_longitude":{"SourceColumnName":"pickup_longitude","DestinationFieldType":"String","AutoNumberSettings":null},"crdb9_store_and_fwd_flag":{"SourceColumnName":"store_and_fwd_flag","DestinationFieldType":"String","AutoNumberSettings":null},"crdb9_tip_amount":{"SourceColumnName":"tip_amount","DestinationFieldType":"Double","AutoNumberSettings":null},"crdb9_tolls_amount":{"SourceColumnName":"tolls_amount","DestinationFieldType":"Double","AutoNumberSettings":null},"crdb9_total_amount":{"SourceColumnName":"total_amount","DestinationFieldType":"Double","AutoNumberSettings":null},"crdb9_tpep_dropoff_datetime":{"SourceColumnName":"tpep_dropoff_datetime","DestinationFieldType":"DateAndTime","AutoNumberSettings":null},"crdb9_tpep_pickup_datetime":{"SourceColumnName":"tpep_pickup_datetime","DestinationFieldType":"DateAndTime","AutoNumberSettings":null},"crdb9_trip_distance":{"SourceColumnName":"trip_distance","DestinationFieldType":"Double","AutoNumberSettings":null},"crdb9_VendorID":{"SourceColumnName":"VendorID","DestinationFieldType":"Integer","AutoNumberSettings":null}},"HostProperties":{"NewEntityPrimaryNameField":"crdb9_Identifier","MappingEditorProperties":"{}"},"JsonOutputDestinations":null,"BindToDefaultOutputDestination":null,"JsonIncrementalRefreshSettings":null,"JsonStagingDefinition":null}},"FastCombine":false,"AllowNativeQueries":false,"HostContext":{"Type":"CdsT","Details":{"EnvironmentId":"c9d5ff09-b6e4-e633-a543-cc0c16c0635e"}},"HostProperties":null,"SkipAutomaticTypeAndHeaderDetection":false,"DisableAutoAnonymousConnectionUpsert":false,"AllowedModules":null,"DataflowMetadata":"{\"DataflowType\":\"Cdst\",\"DataflowId\":\"da9cddc0-c027-406c-8bf5-4408cc6098a0\",\"OwnerUserId\":\"bb03bdfc-9c1a-48a5-a4b9-be449c127d03\",\"OwnerName\":\"Unknown\",\"OwnerTenantId\":\"b20a8f4d-0d6a-4f2e-83a2-181c968f8882\",\"GatewayObjectId\":null,\"ModelSnapshotUri\":\"\",\"GroupId\":\"c9d5ff09-b6e4-e633-a543-cc0c16c0635e\",\"DataflowState\":\"Source\",\"LastUpdateTime\":\"2024-12-04T08:46:59.0497595+00:00\",\"LastStateChangedTime\":\"2024-12-04T08:46:59.0497595+00:00\",\"CreatedTime\":\"2024-12-04T08:22:08.1845609+00:00\",\"ExpiresAfter\":\"2024-12-06T07:22:08.1821122+00:00\",\"AllowedModules\":null,\"UseHostConnectionProvider\":null,\"SkipAutomaticTypeAndHeaderDetection\":null,\"EditingSessionId\":null,\"HostInformation\":null,\"HostContext\":{\"Type\":\"CdsT\",\"Details\":{\"EnvironmentId\":\"c9d5ff09-b6e4-e633-a543-cc0c16c0635e\"}},\"HostProperties\":{\"ServiceFeatureFlag_EnableNewCdstDataflowOrchestration\":\"true\"},\"DisableAutoAnonymousConnectionUpsert\":null,\"RelatedDataflowId\":\"8a96e4da-a91f-4f4f-947a-3b8516344510\",\"DataflowPublishMetadata\":{\"PublishStatus\":\"Published\",\"ErrorInfo\":null,\"PublishVersion\":\"2024-12-04T08:45:44.0722014+00:00\",\"LastUpdateTime\":\"2024-12-04T08:46:59.0505799+00:00\",\"LastPublishedTime\":\"2024-12-04T08:46:59.0505799+00:00\",\"SessionId\":null,\"RequestId\":null},\"TrustedConnections\":null,\"ConnectionOverrides\":[{\"Path\":\"https://amalitech-my.sharepoint.com\",\"Kind\":\"Web\",\"Provider\":\"PowerApps\",\"EnvironmentName\":\"c9d5ff09-b6e4-e633-a543-cc0c16c0635e\",\"ApiName\":\"webcontents\",\"ConnectionName\":\"8aaebb2ec76b494c8eeb0c75e6adc6f6\",\"CredentialDetails\":{},\"ConnectionParameters\":{},\"PrivacyGroup\":\"None\"}]}","Dataflow":"{\"name\":\"yellow_dataflow\",\"ppdf:dataflowId\":\"da9cddc0-c027-406c-8bf5-4408cc6098a0\",\"ppdf:owner\":{\"tenantId\":\"b20a8f4d-0d6a-4f2e-83a2-181c968f8882\",\"userId\":\"bb03bdfc-9c1a-48a5-a4b9-be449c127d03\"},\"ppdf:fastCopy\":false,\"version\":\"14\",\"culture\":\"en-GB\",\"ppdf:outputFileFormat\":\"Csv\",\"pbi:mashup\":{\"fastCombine\":false,\"allowNativeQueries\":false,\"queriesMetadata\":{\"taxiData\":{\"queryId\":\"cc54032e-b10b-445c-8b0b-f004865bce75\",\"queryName\":\"taxiData\",\"entityName\":\"crdb9_TaxiData\",\"loadEnabled\":true,\"lastKnownResultTypeName\":\"table\",\"lastKnownIsCalculatedEntity\":false,\"lastKnownIsLinkedEntity\":false,\"lastKnownIsParameter\":false,\"deleteExistingDataOnLoad\":false,\"hostProperties\":{\"NewEntityPrimaryNameField\":\"crdb9_Identifier\",\"MappingEditorProperties\":\"{}\"},\"fieldsMetadata\":{\"crdb9_dropoff_latitude\":{\"sourceColumnName\":\"dropoff_latitude\",\"destinationFieldType\":\"String\"},\"crdb9_dropoff_longitude\":{\"sourceColumnName\":\"dropoff_longitude\",\"destinationFieldType\":\"String\"},\"crdb9_extra\":{\"sourceColumnName\":\"extra\",\"destinationFieldType\":\"Double\"},\"crdb9_fare_amount\":{\"sourceColumnName\":\"fare_amount\",\"destinationFieldType\":\"Double\"},\"crdb9_Identifier\":{\"sourceColumnName\":\"Identifier\",\"destinationFieldType\":\"String\"},\"crdb9_improvement_surcharge\":{\"sourceColumnName\":\"improvement_surcharge\",\"destinationFieldType\":\"Double\"},\"crdb9_mta_tax\":{\"sourceColumnName\":\"mta_tax\",\"destinationFieldType\":\"Double\"},\"crdb9_passenger_count\":{\"sourceColumnName\":\"passenger_count\",\"destinationFieldType\":\"Integer\"},\"crdb9_payment_type\":{\"sourceColumnName\":\"payment_type\",\"destinationFieldType\":\"Integer\"},\"crdb9_pickup_latitude\":{\"sourceColumnName\":\"pickup_latitude\",\"destinationFieldType\":\"String\"},\"crdb9_pickup_longitude\":{\"sourceColumnName\":\"pickup_longitude\",\"destinationFieldType\":\"String\"},\"crdb9_store_and_fwd_flag\":{\"sourceColumnName\":\"store_and_fwd_flag\",\"destinationFieldType\":\"String\"},\"crdb9_tip_amount\":{\"sourceColumnName\":\"tip_amount\",\"destinationFieldType\":\"Double\"},\"crdb9_tolls_amount\":{\"sourceColumnName\":\"tolls_amount\",\"destinationFieldType\":\"Double\"},\"crdb9_total_amount\":{\"sourceColumnName\":\"total_amount\",\"destinationFieldType\":\"Double\"},\"crdb9_tpep_dropoff_datetime\":{\"sourceColumnName\":\"tpep_dropoff_datetime\",\"destinationFieldType\":\"DateAndTime\"},\"crdb9_tpep_pickup_datetime\":{\"sourceColumnName\":\"tpep_pickup_datetime\",\"destinationFieldType\":\"DateAndTime\"},\"crdb9_trip_distance\":{\"sourceColumnName\":\"trip_distance\",\"destinationFieldType\":\"Double\"},\"crdb9_VendorID\":{\"sourceColumnName\":\"VendorID\",\"destinationFieldType\":\"Integer\"}}}},\"document\":\"section Section1;\\r\\nshared taxiData = let\\r\\n  Source = Csv.Document(Web.Contents(\\\"https://amalitech-my.sharepoint.com/personal/charles_nkansah_amalitech_com/Documents/DE%20PowerAutomate/taxiData.csv\\\"), [Delimiter = \\\",\\\", Columns = 20, QuoteStyle = QuoteStyle.None]),\\r\\n  #\\\"Promoted headers\\\" = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),\\r\\n  #\\\"Changed column type\\\" = Table.TransformColumnTypes(#\\\"Promoted headers\\\", {{\\\"RateCodeID\\\", Int64.Type}, {\\\"RatecodeID\\\", type text}, {\\\"VendorID\\\", Int64.Type}, {\\\"dropoff_latitude\\\", type number}, {\\\"dropoff_longitude\\\", type number}, {\\\"extra\\\", type number}, {\\\"fare_amount\\\", type number}, {\\\"improvement_surcharge\\\", type number}, {\\\"mta_tax\\\", type number}, {\\\"passenger_count\\\", Int64.Type}, {\\\"payment_type\\\", Int64.Type}, {\\\"pickup_latitude\\\", type number}, {\\\"pickup_longitude\\\", type number}, {\\\"store_and_fwd_flag\\\", type text}, {\\\"tip_amount\\\", type number}, {\\\"tolls_amount\\\", type number}, {\\\"total_amount\\\", type number}, {\\\"tpep_dropoff_datetime\\\", type datetime}, {\\\"tpep_pickup_datetime\\\", type datetime}, {\\\"trip_distance\\\", type number}}),\\r\\n  #\\\"Removed columns\\\" = Table.RemoveColumns(#\\\"Changed column type\\\", {\\\"RateCodeID\\\", \\\"RatecodeID\\\"}),\\r\\n  #\\\"Changed column type 1\\\" = Table.TransformColumnTypes(#\\\"Removed columns\\\", {{\\\"dropoff_latitude\\\", type text}, {\\\"dropoff_longitude\\\", type text}, {\\\"pickup_latitude\\\", type text}, {\\\"pickup_longitude\\\", type text}}),\\r\\n  #\\\"Added index\\\" = Table.AddIndexColumn(#\\\"Changed column type 1\\\", \\\"Identifier\\\", 0, 1, Int64.Type),\\r\\n  #\\\"Filtered rows\\\" = Table.SelectRows(#\\\"Added index\\\", each [dropoff_latitude] &lt;&gt; \\\"0\\\" and [dropoff_longitude] &lt;&gt; \\\"0\\\")\\r\\nin\\r\\n  #\\\"Filtered rows\\\";\\r\\n\"},\"annotations\":[{\"name\":\"pbi:QueryGroups\",\"value\":\"[]\"}]}"}</msdyn_mashupsettings>
+      <msdyn_name>yellow_dataflow</msdyn_name>
+      <msdyn_originaldataflowid>da9cddc0-c027-406c-8bf5-4408cc6098a0</msdyn_originaldataflowid>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </msdyn_dataflow>
+  </msdyn_dataflows>
+  <Languages>
+    <Language>1033</Language>
+  </Languages>
+</ImportExportXml>
