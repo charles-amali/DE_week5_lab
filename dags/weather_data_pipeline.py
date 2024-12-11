@@ -55,7 +55,7 @@ with DAG(
 
 
 
-    api_check = HttpSensor(
+    check_weather_api_sensor = HttpSensor(
         task_id='check_api',
         http_conn_id='weather_api',
         endpoint='data/2.5/weather?q=Portland&appid=94f47aea88f1ccd83547c4bc228c692d',
@@ -65,7 +65,7 @@ with DAG(
 
 
 
-    fetch_weather_data = SimpleHttpOperator(
+    fetch_weather= SimpleHttpOperator(
         task_id='fetch_weather_data',
         http_conn_id='weather_api',
         endpoint='data/2.5/weather?q=Portland&appid=94f47aea88f1ccd83547c4bc228c692d',
@@ -75,18 +75,18 @@ with DAG(
     )
 
 
-    transform_data = PythonOperator(
+    transform_weather = PythonOperator(
         task_id='transform_weather_data',
         python_callable=transform_weather_data,
         provide_context=True,
     )
 
 
-    load_data = PostgresOperator(
+    load_weather_data = PostgresOperator(
         task_id='load_weather_data',
         postgres_conn_id='postgres_local',
         sql="{{ ti.xcom_pull(task_ids='transform_weather_data', key='weather_sql') }}",
     )
 
    
-    api_check >> fetch_weather_data >> transform_data >> load_data
+    check_weather_api_sensor >> fetch_weather >> transform_weather >> load_weather_data 
